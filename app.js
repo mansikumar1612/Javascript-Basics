@@ -3,25 +3,17 @@
 // last value will be print
 //1) Arithmetic operators
 
+/*const a="one"
+const b="two"
+console.log(a+b)*/
 
-
-const a=2
-const b=15
-let c=5
+/*const a="2"
+const b=2
 console.log(a+b)
-console.log(a-b)
-console.log(a*b)
-console.log(a/b)
-console.log(a**b)// ** exponents
-console.log(b%a)
- 
-//Assignment operators
+console.log(a-b)*/
 
+// assignment operators
 
-//c+=1// value of c=0 //instead of this we can also use c++
-//c = c+1 => 0+1 => 1
- // multiplication operator using shorthand
-c**=3
-// c=c*5 => 5*5 => 25
-console.log(c)
-
+let name="mansi"
+let a= 19
+console.log(a+name)
