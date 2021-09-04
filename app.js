@@ -1,22 +1,11 @@
-//Data types
-//primitive or non-primitive
+//DOM
+//const element = document.getElementById('selector')
 
-//variable
- var name="mansi"
+//const element = document.getElementsByClassName('heading')
 
- //primitive data types
- let age =21
- console.log(typeof age)
- let Name="asds112234556"//whatever you write in it either it is number,alphabet,special character all of them together even it shows all are strings
- console.log(typeof Name)
- let isTrue = false //boolean
- let brand
- console.log(brand)
+//const element = document.getElementsByTagName('h2')
 
- //non-primitive data types
-
- let arr = [1,2,3,4,5]
- console.log(typeof arr)
- arr.push("value")
- arr.push(false)
- console.log(arr)
+const element = document.querySelector('h3.heading') //perform all of these three
+console.log(element)
+//query selector return only one element
+//for selecting all yiu havr to use queryselectorall
