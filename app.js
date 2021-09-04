@@ -1,30 +1,16 @@
-//DOM
-//const element = document.getElementById('selector')
+//Eventlisteners
 
-//const element = document.getElementsByClassName('heading')
+const button = document.querySelector('button')
+const element = document.querySelector('#selector')
 
-//const element = document.getElementsByTagName('div')
+//button.addEventListener('click', () => {
+  //  console.log('you clicked me')
+//})
 
-const element = document.querySelector('h3.heading') //perform all of these three
-//console.log(element)
-//query selector return only one element
-//for selecting all you have to use queryselectorall
+//button.addEventListener('dbclick', () => {
+  //  console.log('you double clicked me')
+//})
 
-//methods
-//element.innerHTML = "This is from JS"
-
-//element.style.color="blue"
-//element.style.fontsize="40px"
-//element.style="display:none"
-
-//console.log(element.classList)
-//element.classList.add('five')
-//console.log(element.classList)
-//element.classList.remove('one')
-//console.log(element.classList)
-
-//const body = document.querySelector('body')
-//console.log(body.classList.toggle('dark'))
-
-const value = element.classList.contains('three')
-console.log(value)
+button.addEventListener('click', () => {
+    element.style = "background:aqua"
+})
