@@ -48,12 +48,43 @@ console.log(age1)
 console.log(firstname)
 console.log(lastname)
 console.log(middlename)
-
-//ES6 arrow functions
-
 //If data is there then it will print if data is not there default value will be printed
 
 
+//ES6 arrow functions
+
+//provide an alternative way to write shorter syntax to write the function.
+
+//function add(x,y)
+//{
+    //return x+y
+//}
+
+//let add = function(x,y) {
+    //return x+y;
+//}
+//console.log(add(10,20))
+
+let add = (x,y) => {
+    return x+y;
+}
+console.log(add(10,20))
+
+
+const counter = {
+    count: 1,//obj
+    next: function()//next is method
+    {
+        return ++(this.count)
+    }
+}
+console.log(counter)
+console.log(counter.next())
+console.log(counter)
+console.log(counter.next())
+console.log(counter)
+console.log(counter.next())
+//this keyword:  Referencing to the object currently being executed
 
 
 
