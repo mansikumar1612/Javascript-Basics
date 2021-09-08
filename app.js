@@ -76,15 +76,22 @@ const counter = {
     next: function()//next is method
     {
         return ++(this.count)
-    }
+    },
+
+key: this,
+extra: () => {
+    //return --(this.count)
+    return --(counter.count)
+ }
 }
+
 console.log(counter)
 console.log(counter.next())
-console.log(counter)
 console.log(counter.next())
-console.log(counter)
 console.log(counter.next())
+console.log(counter.extra())
+console.log(counter)
 //this keyword:  Referencing to the object currently being executed
 
-
-
+//this keyword can't be use in arrow function
+//this keyword refer to the window itself when we use this function with arrow
